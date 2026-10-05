@@ -7,10 +7,7 @@ Resource    ../page_object/login_locators.resource
 *** Keywords ***
 
 login
-    Set Browser Timeout    60s
-    New Browser    ${browser}    headless=False
-    New Context    ignoreHTTPSErrors=True
-    New Page    ${url}
+    Set Browser Timeout    10s
 
     Wait For Elements State    ${signup-login}    enabled    timeout=20s
     Click    ${signup-login}

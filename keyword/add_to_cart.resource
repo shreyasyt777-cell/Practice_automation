@@ -6,10 +6,6 @@ Resource    ../page_object/add_to_cart_locators.resource
 
 *** Keywords ***
 add_to_cart
-    Set Browser Timeout    60s
-    New Browser    chromium    headless=False
-    New Context    ignoreHTTPSErrors=True
-    New Page    ${url}
 
     Wait For Elements State    ${product}    enabled    timeout=20s
     Click    ${product}

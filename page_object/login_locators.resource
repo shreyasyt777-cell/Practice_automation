@@ -3,8 +3,6 @@ Library    Browser
 
 *** Variables ***
 
-${browser}    chrome
-${url}    https://www.automationexercise.com/ 
 
 ${signup-login}    //a[text()=' Signup / Login']
 

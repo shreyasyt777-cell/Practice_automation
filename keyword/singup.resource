@@ -5,12 +5,6 @@ Resource    ../page_object/signup_locators.resource
 
 *** Keywords ***
 signup
-    Set Browser Timeout    80s
-    #Set Library Search Order    SeleniumLibraryToBrowser
-    New Browser    ${browser}    headless=False    args=["--start-maximized"]
-    New Context    ignoreHTTPSErrors=True
-    New Page    ${url}
-    
     Wait For Elements State    ${signup-login}    enabled    timeout=20s
     Click    ${signup-login}
     Wait For Elements State    ${signup_name}    enabled    timeout=20s

@@ -3,10 +3,6 @@ Library    SeleniumLibrary
 Library    string
 
 *** Variables ***
-
-${url}    https://www.automationexercise.com/
-${browser}    chromium
-## home page
 ${signup-login}    //a[text()=' Signup / Login']
 
 ## signup

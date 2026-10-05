@@ -4,8 +4,6 @@ Library    Browser
 
 *** Variables ***
 
-${url}    https://www.automationexercise.com/
-
 ${product}    //a[contains(text(), "Products")]
 ${first_product}    (//div[@class='single-products'])[1]
 ${f_P_add_to_cart}    (//a[@data-product-id='1'])[1]

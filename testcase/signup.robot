@@ -2,14 +2,12 @@
 Library    Browser
 Resource    ../keyword/singup.resource
 Library    string
-Resource    ../keyword/login.resource
+Resource    ../keyword/launch_app.resource
 
 *** Test Cases ***
-TC1
-    [Tags]    signup
+signup
+    launch_app
     signup
-TC2
-    [Tags]    login
-    login
+
     
     

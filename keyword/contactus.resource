@@ -7,11 +7,6 @@ Resource    ../page_object/contactus_locators.resource
 *** Keywords ***
 
 contact_us
-    Set Browser Timeout    60s
-    New Browser    chromium    headless=False
-    New Context    ignoreHTTPSErrors=True
-    New Page    https://automationexercise.com/
-
 
     Wait For Elements State    ${contactus}    enabled    timeout=20s
     Click    ${contactus}
