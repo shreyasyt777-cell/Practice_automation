@@ -1,6 +1,6 @@
 *** Settings ***
 Library    Browser
-Resource    ../keyword/singup.resource
+Resource    ../keyword/signup.resource
 Library    string
 Resource    ../keyword/launch_app.resource
 

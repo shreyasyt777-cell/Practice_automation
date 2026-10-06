@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.5 (Python 3.12.10 on win32)" generated="2026-10-05T13:11:24.922921" rpa="false" schemaversion="5">
+<suite id="s1" name="Testcase" source="C:\Users\narassh\OneDrive - Tecnotree\Desktop\Robot Framework\dclm_tecnotree\testcase">
+<suite id="s1-s1" name="Login" source="C:\Users\narassh\OneDrive - Tecnotree\Desktop\Robot Framework\dclm_tecnotree\testcase\login.robot">
+<test id="s1-s1-t1" name="login" line="9">
+<kw name="launch_app" owner="launch_app">
+<kw name="Set Browser Timeout" owner="Browser">
+<msg time="2026-10-05T13:11:30.851324" level="INFO">Starting Browser process C:\Users\narassh\OneDrive - Tecnotree\Desktop\Robot Framework\robot-env\Lib\site-packages\Browser\wrapper\index.js using at 127.0.0.1:51514</msg>
+<arg>60s</arg>
+<tag>Config</tag>
+<tag>Setter</tag>
+<doc>Sets the timeout used by most input and getter keywords.</doc>
+<status status="PASS" start="2026-10-05T13:11:30.207579" elapsed="6.683586"/>
+</kw>
+<kw name="New Browser" owner="Browser">
+<msg time="2026-10-05T13:11:36.898724" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\Users\\narassh\\OneDrive - Tecnotree\\Desktop\\Robot Framework\\dclm_tecnotree\\pabot_results\\2\\browser\\traces\\temp\\0730248c-0957-47a0-941d-964ad77f8fd8"}</msg>
+<msg time="2026-10-05T13:11:50.876355" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"C:\\Users\\narassh\\OneDrive - Tecnotree\\Desktop\\Robot Framework\\dclm_tecnotree\\pabot_results\\2\\browser\\traces\\temp\\0730248c-0957-47a0-941d-964ad77f8fd8"}</msg>
+<arg>${browser}</arg>
+<arg>headless=False</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2026-10-05T13:11:36.891165" elapsed="13.987200"/>
+</kw>
+<kw name="New Context" owner="Browser">
+<msg time="2026-10-05T13:11:50.882901" level="INFO">{
+  "acceptDownloads": true,
+  "bypassCSP": false,
+  "forcedColors": "none",
+  "ignoreHTTPSErrors": true,
+  "javaScriptEnabled": true,
+  "offline": false,
+  "reducedMotion": "no-preference",
+  "serviceWorkers": "allow",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  }
+}</msg>
+<msg time="2026-10-05T13:11:50.931844" level="INFO">Successfully created context. </msg>
+<msg time="2026-10-05T13:11:50.931844" level="INFO">{'acceptDownloads': True, 'bypassCSP': False, 'forcedColors': 'none', 'ignoreHTTPSErrors': True, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': {'width': 1280, 'height': 720}}</msg>
+<arg>ignoreHTTPSErrors=True</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new BrowserContext with specified options.</doc>
+<status status="PASS" start="2026-10-05T13:11:50.878876" elapsed="0.054996"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2026-10-05T13:12:44.009023" level="INFO">Successfully initialized new page object and opened url: http://automationexercise.com</msg>
+<arg>${url}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2026-10-05T13:11:50.933872" elapsed="53.077166"/>
+</kw>
+<status status="PASS" start="2026-10-05T13:11:30.204555" elapsed="73.806483"/>
+</kw>
+<kw name="login" owner="login">
+<kw name="Set Browser Timeout" owner="Browser">
+<arg>10s</arg>
+<tag>Config</tag>
+<tag>Setter</tag>
+<doc>Sets the timeout used by most input and getter keywords.</doc>
+<status status="PASS" start="2026-10-05T13:12:44.017584" elapsed="0.034273"/>
+</kw>
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2026-10-05T13:12:44.256753" level="INFO">Waited for Element with selector //a[text()=' Signup / Login'] at state enabled</msg>
+<arg>${signup-login}</arg>
+<arg>enabled</arg>
+<arg>timeout=20s</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2026-10-05T13:12:44.052368" elapsed="0.204385"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2026-10-05T13:12:44.283860" level="INFO">Clicks the element '//a[text()=' Signup / Login']'.</msg>
+<arg>${signup-login}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-10-05T13:12:44.256753" elapsed="1.430120"/>
+</kw>
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2026-10-05T13:12:46.082290" level="INFO">Waited for Element with selector [name="email"][data-qa="login-email"] at state enabled</msg>
+<arg>${login_email}</arg>
+<arg>enabled</arg>
+<arg>timeout=10s</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2026-10-05T13:12:45.688885" elapsed="0.395424"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2026-10-05T13:12:46.093577" level="INFO">Fills the text 'ahkjd@gmail.com' in the given field.</msg>
+<arg>${login_email}</arg>
+<arg>${login_email_text}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2026-10-05T13:12:46.084309" elapsed="0.073932"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2026-10-05T13:12:46.160257" level="INFO">Fills the text 'sjkhda7' in the given field.</msg>
+<arg>${login_password}</arg>
+<arg>${login_password_text}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2026-10-05T13:12:46.158241" elapsed="0.065198"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2026-10-05T13:12:46.233771" level="INFO">Clicks the element '//button[.='Login']'.</msg>
+<arg>${login}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-10-05T13:12:46.223439" elapsed="2.491906"/>
+</kw>
+<status status="PASS" start="2026-10-05T13:12:44.013961" elapsed="4.701384"/>
+</kw>
+<msg time="2026-10-05T13:12:49.286478" level="INFO">Switching context to context=1eaeec8f-4530-4fcc-8657-7011907ab5a2 in CURRENT</msg>
+<msg time="2026-10-05T13:12:49.424579" level="INFO">Successfully changed active context: context=1eaeec8f-4530-4fcc-8657-7011907ab5a2</msg>
+<msg time="2026-10-05T13:12:49.521948" level="INFO">Successfully closed Context</msg>
+<status status="PASS" start="2026-10-05T13:11:30.200530" elapsed="78.514815"/>
+</test>
+<status status="PASS" start="2026-10-05T13:11:25.194162" elapsed="84.344396"/>
+</suite>
+<status status="PASS" start="2026-10-05T13:11:24.928464" elapsed="84.711549"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Testcase" id="s1" pass="1" fail="0" skip="0">Testcase</stat>
+<stat name="Login" id="s1-s1" pass="1" fail="0" skip="0">Testcase.Login</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

@@ -1,3 +1,3 @@
 *** Variables ***
 ${url}    http://automationexercise.com
-${browser}    chrome
+${browser}    chromium

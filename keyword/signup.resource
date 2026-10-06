@@ -102,7 +102,6 @@ signup
     Click    ${continue}
 
     Sleep    2s
-    Browser.Close Browser
 
 
     

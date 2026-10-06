@@ -1,0 +1,95 @@
+[INFO]    Initialized logging in .\pabot_results
+[INFO]    Robot Framework remote server at 127.0.0.1:8270 started.
+[DEBUG]   Storing .pabotsuitenames file
+[DEBUG]   2026-10-05 13:11:21.763080 [PID:37852] [0] [ID:0] EXECUTING Testcase.Add To Cart
+[DEBUG]   2026-10-05 13:11:21.768501 [PID:6652] [2] [ID:2] EXECUTING Testcase.Login
+[DEBUG]   2026-10-05 13:11:21.768501 [PID:37312] [3] [ID:3] EXECUTING Testcase.Signup
+[DEBUG]   2026-10-05 13:11:21.955127 [PID:10500] [1] [ID:1] EXECUTING Testcase.Contactus
+[DEBUG]   2026-10-05 13:11:26.830320 [PID:37312] [3] [ID:3] still running Testcase.Signup after 5.0s
+[DEBUG]   2026-10-05 13:11:26.830320 [PID:6652] [2] [ID:2] still running Testcase.Login after 5.0s
+[DEBUG]   2026-10-05 13:11:27.225393 [PID:37852] [0] [ID:0] still running Testcase.Add To Cart after 5.0s
+[DEBUG]   2026-10-05 13:11:28.013439 [PID:10500] [1] [ID:1] still running Testcase.Contactus after 5.0s
+[DEBUG]   2026-10-05 13:11:37.046665 [PID:6652] [2] [ID:2] still running Testcase.Login after 15.0s
+[DEBUG]   2026-10-05 13:11:37.048053 [PID:37312] [3] [ID:3] still running Testcase.Signup after 15.0s
+[DEBUG]   2026-10-05 13:11:37.267937 [PID:37852] [0] [ID:0] still running Testcase.Add To Cart after 15.0s
+[DEBUG]   2026-10-05 13:11:38.069575 [PID:10500] [1] [ID:1] still running Testcase.Contactus after 15.0s
+[DEBUG]   2026-10-05 13:11:52.423376 [PID:37852] [0] [ID:0] still running Testcase.Add To Cart after 30.0s
+[DEBUG]   2026-10-05 13:11:52.722842 [PID:37312] [3] [ID:3] still running Testcase.Signup after 30.0s
+[DEBUG]   2026-10-05 13:11:52.722842 [PID:6652] [2] [ID:2] still running Testcase.Login after 30.0s
+[DEBUG]   2026-10-05 13:11:53.226044 [PID:10500] [1] [ID:1] still running Testcase.Contactus after 30.0s
+[INFO]    2026-10-05 13:12:09.918412 [PID:37312] [3] [ID:3] Execution failed in Testcase.Signup with 1 failing test(s)
+==============================================================================
+Testcase
+==============================================================================
+Testcase.Signup
+==============================================================================
+signup                                                                | FAIL |
+TimeoutError: browserType.launch: Timeout 30000ms exceeded.
+Call log:
+  - <launching> C:\Users\narassh\OneDrive - Tecnotree\Desktop\Robot Framework\robot-env\Lib\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\chromium-1243\chrome-win64\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,Translate,AutoDeElevate,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --user-data-dir=C:\Users\narassh\AppData\Local\Temp\playwright_chromiumdev_profile-sT1hDR --remote-debugging-pipe --no-startup-window
+  - <launched> pid=29468
+------------------------------------------------------------------------------
+Testcase.Signup                                                       | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Testcase                                                              | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\narassh\OneDrive - Tecnotree\Desktop\Robot Framework\dclm_tecnotree\pabot_results\3\output.xml
+[INFO]    2026-10-05 13:12:10.283074 [PID:37852] [0] [ID:0] Execution failed in Testcase.Add To Cart with 1 failing test(s)
+==============================================================================
+Testcase
+==============================================================================
+Testcase.Add To Cart
+==============================================================================
+add to cart                                                           | FAIL |
+TimeoutError: browserType.launch: Timeout 30000ms exceeded.
+Call log:
+  - <launching> C:\Users\narassh\OneDrive - Tecnotree\Desktop\Robot Framework\robot-env\Lib\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\chromium-1243\chrome-win64\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,Translate,AutoDeElevate,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --user-data-dir=C:\Users\narassh\AppData\Local\Temp\playwright_chromiumdev_profile-ulbX1n --remote-debugging-pipe --no-startup-window
+  - <launched> pid=21376
+------------------------------------------------------------------------------
+Testcase.Add To Cart                                                  | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Testcase                                                              | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\narassh\OneDrive - Tecnotree\Desktop\Robot Framework\dclm_tecnotree\pabot_results\0\output.xml
+[INFO]    2026-10-05 13:12:10.467024 [PID:10500] [1] [ID:1] Execution failed in Testcase.Contactus with 1 failing test(s)
+==============================================================================
+Testcase
+==============================================================================
+Testcase.Contactus
+==============================================================================
+contactus                                                             | FAIL |
+TimeoutError: browserType.launch: Timeout 30000ms exceeded.
+Call log:
+  - <launching> C:\Users\narassh\OneDrive - Tecnotree\Desktop\Robot Framework\robot-env\Lib\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\chromium-1243\chrome-win64\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,Translate,AutoDeElevate,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --user-data-dir=C:\Users\narassh\AppData\Local\Temp\playwright_chromiumdev_profile-73rAsg --remote-debugging-pipe --no-startup-window
+  - <launched> pid=14792
+------------------------------------------------------------------------------
+Testcase.Contactus                                                    | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Testcase                                                              | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\narassh\OneDrive - Tecnotree\Desktop\Robot Framework\dclm_tecnotree\pabot_results\1\output.xml
+[DEBUG]   2026-10-05 13:12:13.468896 [PID:6652] [2] [ID:2] still running Testcase.Login after 50.0s
+[DEBUG]   2026-10-05 13:12:39.192320 [PID:6652] [2] [ID:2] still running Testcase.Login after 75.0s
+[INFO]    2026-10-05 13:13:06.364884 [PID:6652] [2] [ID:2] PASSED Testcase.Login in 104.7 seconds
+[INFO]    4 tests, 1 passed, 3 failed, 0 skipped.
+[INFO]    ===================================================
+[INFO]    Output:  C:\Users\narassh\OneDrive - Tecnotree\Desktop\Robot Framework\dclm_tecnotree\output.xml
+[INFO]    Log:     
+[INFO]    C:\Users\narassh\OneDrive - Tecnotree\Desktop\Robot Framework\dclm_tecnotree\log.html
+[INFO]    
+[INFO]    Report:  
+[INFO]    C:\Users\narassh\OneDrive - Tecnotree\Desktop\Robot Framework\dclm_tecnotree\report.html
+[INFO]    
+[DEBUG]   Finalizing Pabot execution...
+[DEBUG]   Stopping PabotLib process
+[INFO]    Robot Framework remote server at 127.0.0.1:8270 stopped.
+[DEBUG]   PabotLib process stopped
+[INFO]    Total testing: 4 minutes 10.20 seconds
+[INFO]    Elapsed time:  1 minute 48.78 seconds
+[DEBUG]   Logs flushed successfully.
