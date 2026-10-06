@@ -5,8 +5,6 @@ Resource    ../keyword/launch_app.resource
 
 
 *** Test Cases ***
-
-
 contactus
     launch_app
     contact_us

@@ -1,0 +1,18 @@
+2026-10-05 13:11:25.133647 ==============================================================================
+2026-10-05 13:11:25.186102 Testcase
+2026-10-05 13:11:25.186102 ==============================================================================
+2026-10-05 13:11:29.145295 Testcase.Signup
+2026-10-05 13:11:29.169287 ==============================================================================
+2026-10-05 13:12:06.184842 signup                                                                | FAIL |
+2026-10-05 13:12:06.190940 TimeoutError: browserType.launch: Timeout 30000ms exceeded.
+2026-10-05 13:12:06.190940 Call log:
+2026-10-05 13:12:06.190940   - <launching> C:\Users\narassh\OneDrive - Tecnotree\Desktop\Robot Framework\robot-env\Lib\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\chromium-1243\chrome-win64\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,Translate,AutoDeElevate,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --user-data-dir=C:\Users\narassh\AppData\Local\Temp\playwright_chromiumdev_profile-sT1hDR --remote-debugging-pipe --no-startup-window
+2026-10-05 13:12:06.190940   - <launched> pid=29468
+2026-10-05 13:12:06.192951 ------------------------------------------------------------------------------
+2026-10-05 13:12:06.558583 Testcase.Signup                                                       | FAIL |
+2026-10-05 13:12:06.596855 1 test, 0 passed, 1 failed
+2026-10-05 13:12:06.598903 ==============================================================================
+2026-10-05 13:12:06.600914 Testcase                                                              | FAIL |
+2026-10-05 13:12:06.609007 1 test, 0 passed, 1 failed
+2026-10-05 13:12:06.611020 ==============================================================================
+2026-10-05 13:12:06.611020 Output:  C:\Users\narassh\OneDrive - Tecnotree\Desktop\Robot Framework\dclm_tecnotree\pabot_results\3\output.xml

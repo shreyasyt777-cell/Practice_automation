@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.5 (Python 3.12.10 on win32)" generated="2026-10-05T13:11:24.922921" rpa="false" schemaversion="5">
+<suite id="s1" name="Testcase" source="C:\Users\narassh\OneDrive - Tecnotree\Desktop\Robot Framework\dclm_tecnotree\testcase">
+<suite id="s1-s1" name="Signup" source="C:\Users\narassh\OneDrive - Tecnotree\Desktop\Robot Framework\dclm_tecnotree\testcase\signup.robot">
+<test id="s1-s1-t1" name="signup" line="8">
+<kw name="launch_app" owner="launch_app">
+<kw name="Set Browser Timeout" owner="Browser">
+<msg time="2026-10-05T13:11:30.070828" level="INFO">Starting Browser process C:\Users\narassh\OneDrive - Tecnotree\Desktop\Robot Framework\robot-env\Lib\site-packages\Browser\wrapper\index.js using at 127.0.0.1:51500</msg>
+<arg>60s</arg>
+<tag>Config</tag>
+<tag>Setter</tag>
+<doc>Sets the timeout used by most input and getter keywords.</doc>
+<status status="PASS" start="2026-10-05T13:11:29.177084" elapsed="6.392736"/>
+</kw>
+<kw name="New Browser" owner="Browser">
+<msg time="2026-10-05T13:11:35.575056" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\Users\\narassh\\OneDrive - Tecnotree\\Desktop\\Robot Framework\\dclm_tecnotree\\pabot_results\\3\\browser\\traces\\temp\\25561d2b-c2ec-48fa-8ab5-f4971d8c76f0"}</msg>
+<msg time="2026-10-05T13:12:05.685059" level="INFO">Keyword 'Take Screenshot  fail-screenshot-{index}' could not be run on failure:
+Error: Tried to take screenshot, but no page was open.</msg>
+<msg time="2026-10-05T13:12:05.685059" level="INFO">See also file:///C:/Users/narassh/OneDrive%20-%20Tecnotree/Desktop/Robot%20Framework/dclm_tecnotree/pabot_results/3/playwright-log.txt for additional details.</msg>
+<msg time="2026-10-05T13:12:05.687074" level="FAIL">TimeoutError: browserType.launch: Timeout 30000ms exceeded.
+Call log:
+  - &lt;launching&gt; C:\Users\narassh\OneDrive - Tecnotree\Desktop\Robot Framework\robot-env\Lib\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\chromium-1243\chrome-win64\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,Translate,AutoDeElevate,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --user-data-dir=C:\Users\narassh\AppData\Local\Temp\playwright_chromiumdev_profile-sT1hDR --remote-debugging-pipe --no-startup-window
+  - &lt;launched&gt; pid=29468
+</msg>
+<arg>${browser}</arg>
+<arg>headless=False</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="FAIL" start="2026-10-05T13:11:35.569820" elapsed="30.375585">TimeoutError: browserType.launch: Timeout 30000ms exceeded.
+Call log:
+  - &lt;launching&gt; C:\Users\narassh\OneDrive - Tecnotree\Desktop\Robot Framework\robot-env\Lib\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\chromium-1243\chrome-win64\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,Translate,AutoDeElevate,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --user-data-dir=C:\Users\narassh\AppData\Local\Temp\playwright_chromiumdev_profile-sT1hDR --remote-debugging-pipe --no-startup-window
+  - &lt;launched&gt; pid=29468
+</status>
+</kw>
+<kw name="New Context" owner="Browser">
+<arg>ignoreHTTPSErrors=True</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new BrowserContext with specified options.</doc>
+<status status="NOT RUN" start="2026-10-05T13:12:05.947419" elapsed="0.000000"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<arg>${url}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="NOT RUN" start="2026-10-05T13:12:05.949430" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2026-10-05T13:11:29.173314" elapsed="36.776116">TimeoutError: browserType.launch: Timeout 30000ms exceeded.
+Call log:
+  - &lt;launching&gt; C:\Users\narassh\OneDrive - Tecnotree\Desktop\Robot Framework\robot-env\Lib\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\chromium-1243\chrome-win64\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,Translate,AutoDeElevate,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --user-data-dir=C:\Users\narassh\AppData\Local\Temp\playwright_chromiumdev_profile-sT1hDR --remote-debugging-pipe --no-startup-window
+  - &lt;launched&gt; pid=29468
+</status>
+</kw>
+<kw name="signup" owner="singup">
+<status status="NOT RUN" start="2026-10-05T13:12:05.952958" elapsed="0.001759"/>
+</kw>
+<status status="FAIL" start="2026-10-05T13:11:29.171300" elapsed="36.783417">TimeoutError: browserType.launch: Timeout 30000ms exceeded.
+Call log:
+  - &lt;launching&gt; C:\Users\narassh\OneDrive - Tecnotree\Desktop\Robot Framework\robot-env\Lib\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\chromium-1243\chrome-win64\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,Translate,AutoDeElevate,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --user-data-dir=C:\Users\narassh\AppData\Local\Temp\playwright_chromiumdev_profile-sT1hDR --remote-debugging-pipe --no-startup-window
+  - &lt;launched&gt; pid=29468
+</status>
+</test>
+<status status="FAIL" start="2026-10-05T13:11:25.186102" elapsed="41.006849"/>
+</suite>
+<status status="FAIL" start="2026-10-05T13:11:24.928464" elapsed="41.672450"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Testcase" id="s1" pass="0" fail="1" skip="0">Testcase</stat>
+<stat name="Signup" id="s1-s1" pass="0" fail="1" skip="0">Testcase.Signup</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
