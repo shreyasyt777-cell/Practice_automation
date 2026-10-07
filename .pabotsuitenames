@@ -1,8 +1,0 @@
-datasources:3195782b6832dfa2683fc35f305f15d246adf630
-commandlineoptions:97d170e1550eee4afc0af065b78cda302a97674c
-suitesfrom:no-suites-from-option
-file:fc47559acedb59d1d68074d297a711273643ccc1
---suite Testcase.Add To Cart
---suite Testcase.Contactus
---suite Testcase.Login
---suite Testcase.Signup
